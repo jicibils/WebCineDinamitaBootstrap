@@ -85,6 +85,13 @@
   padding-right: 15px;
 }
 
+.movies-row-last {
+  background: rgba(0, 0, 0, 0.8);
+  min-height: 425px;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
 .movies-column {
   margin-top: 5px;
   min-height: 330px;
@@ -108,6 +115,34 @@
   float:none;
 }
 
+.user_data{
+  margin-top: 10px;
+  font-size: 18px;
+  color: #FFFFFF;
+}
+
+.input-element{
+  width: 100%;
+  height: 28px;
+  padding: 10px;
+  color: #FFFFFF;
+  background-color: rgba(255,255,255,0.4);
+  border-radius: 4px;
+  border: none;
+  margin-top: 5px;
+}
+
+.label-class{
+  color: #FFFFFF;
+  font-size: 13px;
+  margin-right: 10px;
+}
+
+.btn-save{
+  width: 40%;
+  background-color: rgba(8, 45, 94, 0.95);
+  color: #FFFFFF;
+}
 @media (max-width: 770px) {
   h2 {
     font-size: 22px;
